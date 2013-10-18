@@ -14,7 +14,15 @@ public class Client {
 				SignInfoFactory.getSignInfo(key);
 			}
 		}
-		SignInfo signInfo = SignInfoFactory.getSignInfo("科目1考试地点1");
+//		SignInfo signInfo = SignInfoFactory.getSignInfo("科目1考试地点1");
+		
+		long currentTime = System.currentTimeMillis();
+		for(int i=0 ; i<10000; i++)
+		{
+			SignInfoFactory.getSignInfo("科目1考试地点1");
+		}
+		long tailTime = System.currentTimeMillis();
+		System.out.println("执行时间："+(tailTime - currentTime)+" ms");
 	}
 
 }

@@ -12,7 +12,7 @@ public class Client {
 		SignInfoFactory.getSignInfo(state1);
 		ExtrisicState state2 = new ExtrisicState();
 		state2.setSubject("科目2");
-		state1.setLocation("上海2");
+		state2.setLocation("上海2");
 		long currentTime = System.currentTimeMillis();
 		for(int i=0 ; i<10000; i++)
 		{
