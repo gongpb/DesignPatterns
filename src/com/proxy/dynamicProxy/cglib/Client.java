@@ -1,5 +1,9 @@
 package com.proxy.dynamicProxy.cglib;
-
+/**
+ * http://blog.csdn.net/xiaohai0504/article/details/6832990
+ * @author gongpeibao
+ *
+ */
 public class Client {
 //	public static void main(String[] args) {
 //		ServiceBean service = ServiceBeanFactory.getProxyInstance(new CglibDynamicProxy("boss"));
