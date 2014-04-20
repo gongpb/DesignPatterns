@@ -3,6 +3,7 @@ package com.proxy.dynamicProxy.dynamicProxy;
 import java.lang.reflect.InvocationHandler;
 
 public class Client {
+	//conflict
 	public static void main(String[] args) {
 		//定义一个主题
 		Subject subject = new RealSubject();
