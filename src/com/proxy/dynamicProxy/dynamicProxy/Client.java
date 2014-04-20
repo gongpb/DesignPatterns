@@ -3,10 +3,6 @@ package com.proxy.dynamicProxy.dynamicProxy;
 import java.lang.reflect.InvocationHandler;
 
 public class Client {
-<<<<<<< HEAD
-	//conflict
-=======
->>>>>>> branch 'master' of https://github.com/gongpb/DesignPatterns.git
 	public static void main(String[] args) {
 		//定义一个主题
 		Subject subject = new RealSubject();
