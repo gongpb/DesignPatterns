@@ -1,5 +1,8 @@
 package com.bridge.bridge;
-
+/**
+ * 抽象化角色
+ * @author gongpb
+ */
 public abstract class Abstraction {
 	//定义对实现化角色的引用
 	private Implementor imp;

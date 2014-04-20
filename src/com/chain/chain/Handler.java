@@ -12,6 +12,10 @@ import java.util.logging.Level;
  *
  */
 public abstract class Handler {
+	public final static int LEVER_REQUEST_1 = 1;
+	public final static int LEVER_REQUEST_2 = 2;
+	public final static int LEVER_REQUEST_3 = 3;
+	
 	private Handler nextHandler;
 	//每个矗立着都必须对请求做出处理
 	public final Response handlerMessage(Request request){

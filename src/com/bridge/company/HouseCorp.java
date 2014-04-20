@@ -14,6 +14,7 @@ public class HouseCorp extends Corp {
 	protected void sell() {
 		System.out.println("房地产公司出售房子......");
 	}
+	
 	@Override
 	public void makeMoney() {
 		

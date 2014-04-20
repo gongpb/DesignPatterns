@@ -1,7 +1,7 @@
 package com.bridge.bridge;
 
 /**
- * 具体抽象化角色 
+ * 修正抽象化角色 
  * @author gong_pibao
  */
 public class RefinedAbstraction extends Abstraction{

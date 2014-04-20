@@ -2,8 +2,8 @@ package com.chain.women2;
 
 public abstract class Handler {
 	public final static int FATHER_LEVER_REQUEST = 1;
-	public final static int HUSBAND_LEVER_REQUEST = 1;
-	public final static int SON_LEVER_REQUEST = 1;
+	public final static int HUSBAND_LEVER_REQUEST = 2;
+	public final static int SON_LEVER_REQUEST = 3;
 	//能处理的级别
 	private int level = 0;
 	//责任传递，下一个责任人是谁

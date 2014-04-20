@@ -8,3 +8,4 @@ public abstract class Product {
 	//³éÏó·½·¨
 	public abstract void method2();
 }
+           

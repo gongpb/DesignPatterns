@@ -4,7 +4,7 @@ package com.chain.chain;
  * @author gong_pibao
  */
 public class Request {
-	//请求的级别
+	//请求的等级
 	public Level getRequestLevel(){
 		return null;
 	}

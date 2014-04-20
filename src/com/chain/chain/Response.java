@@ -4,5 +4,5 @@ package com.chain.chain;
  * @author gong_pibao
  */
 public class Response {
- //处理飞安徽的数据
+ //处理者返回的数据
 }

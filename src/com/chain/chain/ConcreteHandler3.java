@@ -16,5 +16,4 @@ public class ConcreteHandler3 extends Handler{
 	protected Level getHandlerLevlel() {
 		return null;
 	}
-
 }
