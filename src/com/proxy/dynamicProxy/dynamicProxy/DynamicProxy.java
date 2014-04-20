@@ -13,4 +13,11 @@ public class DynamicProxy<T> {
 		//Proxy.newProxyInstance(loader, interfaces, h):重新生成一个对象
 		return (T)Proxy.newProxyInstance(loader, interfaces, h);
 	}
+	
+//	public static <T> T newProxyInstance(Subject subject){
+//		ClassLoader loader = subject.getClass().getClassLoader();
+//		Class<?>[] classes = subject.getClass().getInterfaces();
+//		InvocationHandler handler = new MyInvocationHandler(subject);
+//		return (T)Proxy.newProxyInstance(loader, classes, handler);
+//	}
 }
