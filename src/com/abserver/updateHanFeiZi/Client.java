@@ -8,5 +8,4 @@ public class Client {
 		//韩非子开始娱乐
 		hanFeiZi.haveFun();
 	}
-
 }

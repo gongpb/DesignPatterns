@@ -10,6 +10,5 @@ public class WangSi  implements Observer{
 	//一看到韩非子有活动，他就痛哭
 	public  void cry(String reportContext){
 		System.out.println("王斯：因为 "+reportContext+"--所以我悲伤呀！");
-		
 	}
 }

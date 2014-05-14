@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.Observable;
 
 /**
- * 用 java正九品美国的java.util.Observable 类实现
+ * 用 java.util.Observable 类实现
  * 被观察者类 HanFeiZi 只要专注自己的业务逻辑就可以了
  * @author gong_pibao
  */
