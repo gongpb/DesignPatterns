@@ -9,18 +9,18 @@ public class Client {
 		for(Employee emp:mockEmployee()){
 			emp.accept(new Visitor());
 		}
-		//展示报表访问者
-//		IShowVisitor showVisitor = new ShowVisitor();
-//		for(Employee emp:mockEmployee()){
-//			emp.accept(showVisitor); //接受显示报表访问者
-//		}
-//		showVisitor.report();
+//		展示报表访问者
+		IShowVisitor showVisitor = new ShowVisitor();
+		for(Employee emp:mockEmployee()){
+			emp.accept(showVisitor); //接受显示报表访问者
+		}
+		showVisitor.report();
 		//汇报报表的访问者
 		ITotalVisitor  totalVisitor = new TotalVisitor();
-//		for(Employee emp:mockEmployee()){
-//			emp.accept(totalVisitor); //接受显示报表访问者
-//		}
-//		totalVisitor.totalSalary();
+		for(Employee emp:mockEmployee()){
+			emp.accept(totalVisitor); //接受显示报表访问者
+		}
+		totalVisitor.totalSalary();
 		
 	}
 	//模拟出公司的人员情况，我们可以想象这个数据室通过持久层传递过来的

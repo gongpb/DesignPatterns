@@ -11,6 +11,7 @@ public class Client {
 		xiaoSan.setCommand(command);
 		//接头人执行命令
 		xiaoSan.action();
+		
 		System.out.println("\n---------执行第二个命令-------");
 		Command commanddelete = new DeletePageCommand();
 		xiaoSan.setCommand(commanddelete);

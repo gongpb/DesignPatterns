@@ -8,17 +8,17 @@ public class PrettyGirl implements IPrettyGirl {
 	}
 	@Override
 	public void goodLooking() {
-		// TODO Auto-generated method stub
+		System.out.println("脸蛋漂亮");
 	}
 
 	@Override
 	public void niceFigure() {
-		// TODO Auto-generated method stub
+		System.out.println("身材好");
 	}
 
 	@Override
 	public void greatTemperament() {
-		// TODO Auto-generated method stub
+		System.out.println("气质佳");
 	}
 
 }
