@@ -16,5 +16,4 @@ public class Client {
 		xiaoXi.haveBreakfast();
 		xiaoXi.haveFun();
 	}
-
 }

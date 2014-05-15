@@ -1,10 +1,10 @@
 package com.principle.lsp;
 
 import java.util.Collection;
-import java.util.Map;
+import java.util.HashMap;
 
 public class Father {
-	public Collection doSomething(Map map) {
+	public Collection doSomething(HashMap map) {
 		System.out.println("Father.........");
 		return map.values();
 	}

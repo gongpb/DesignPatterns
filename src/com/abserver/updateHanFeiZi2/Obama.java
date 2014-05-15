@@ -7,7 +7,7 @@ public class Obama  implements Observer{
 		this.reportToQinShiHuang(context);
 		System.out.println("Obama：汇报完毕...\n");
 	}
-	//汇报给秦始皇
+	//汇报
 	public  void reportToQinShiHuang(String reportContext){
 		
 		System.out.println("Obama：报告，请老板！习主席有活动了......"+reportContext);
