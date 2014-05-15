@@ -8,7 +8,7 @@ import java.util.Observable;
  * 被观察者类 HanFeiZi 只要专注自己的业务逻辑就可以了
  * @author gong_pibao
  */
-public class HanFeiZi extends Observable implements  IHanFeiZi{
+public class XiJinPing extends Observable implements  IXiJinPing{
 	//韩非子要吃饭了
 	@Override
 	public void haveBreakfast() {

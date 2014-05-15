@@ -2,22 +2,22 @@ package com.abserver.updateHanFeiZi2;
 
 import java.util.ArrayList;
 
-public class HanFeiZi implements Observable , IHanFeiZi{
+public class XiJinPing implements Observable , IXiJinPing{
 	private ArrayList<Observer> obseverList = new ArrayList<Observer>();
 	
 	//韩非子要吃饭了
 	@Override
 	public void haveBreakfast() {
-		System.out.println("韩非子：开始吃饭了----");
+		System.out.println("习主席：开始吃饭了----");
 		//通知所有的观察者
-		this.notiyfObservers("韩非子开始吃饭了");
+		this.notiyfObservers("习主席开始吃饭了");
 	}
 	//韩非子开始娱乐了
 	@Override
 	public void haveFun() {
-		System.out.println("韩非子：开始娱乐了----");
+		System.out.println("习主席：开始娱乐了----");
 		//通知所有的管着着
-		this.notiyfObservers("韩非子开始娱乐了 ");
+		this.notiyfObservers("习主席开始娱乐了 ");
 	}
 	
 	

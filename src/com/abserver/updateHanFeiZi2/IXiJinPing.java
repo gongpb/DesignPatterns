@@ -1,6 +1,6 @@
-package com.abserver.updateHanFeiZi3;
+package com.abserver.updateHanFeiZi2;
 
-public interface IHanFeiZi {
+public interface IXiJinPing {
 	//韩非子吃饭
 	public void haveBreakfast();
 	//娱乐活动
