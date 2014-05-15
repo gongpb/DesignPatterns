@@ -1,12 +1,12 @@
 package com.principle.lsp;
 
 import java.util.Collection;
-import java.util.Map;
+import java.util.HashMap;
 
 public class Son extends Father{
 	
 //	@Override
-	public Collection doSomething(Map map) {
+	public Collection doSomething(HashMap map) {
 		System.out.println("Son........");
 		return map.values();
 	}

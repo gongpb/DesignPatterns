@@ -1,7 +1,7 @@
 package com.principle.dip;
 
 public class Driver {
-	public void drive(Benz benz){
-		benz.run();
+	public void drive(SangTaNa sangTaNa){
+		sangTaNa.run();
 	}
 }

@@ -1,7 +1,5 @@
 package com.chain.chain;
 
-import java.util.logging.Level;
-
 /**
  * 抽象的处理者
  * 1、定义一个请求的处理方法handlerMessage，唯一对外开发的 方法

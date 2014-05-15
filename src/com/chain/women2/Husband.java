@@ -5,6 +5,7 @@ public class Husband extends  Handler{
 	public Husband() {
 		super(Handler.HUSBAND_LEVER_REQUEST);
 	}
+
 	//ÕÉ·òµÄ´ð¸´
 	@Override
 	protected void response(IWomen women) {
@@ -12,6 +13,5 @@ public class Husband extends  Handler{
 		System.out.println(women.getRequest());
 		System.out.println("ÕÉ·òµÄ´ð¸´£ºÍ¬Òâ\n");
 	}
-
 
 }

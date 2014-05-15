@@ -14,5 +14,4 @@ public class Client {
 		Son son = new Son();
 		son.doSomething(map);
 	}
-	
 }
