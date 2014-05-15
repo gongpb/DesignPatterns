@@ -8,6 +8,7 @@ public class Client {
 		//原有的业务逻辑
 		Target target = new ConcreteTarget();
 		target.request();
+		System.out.println("\n");
 		//增加了适配器角色之后的业务逻辑
 		Target targetAdapter = new Adapter();
 		targetAdapter.request();
